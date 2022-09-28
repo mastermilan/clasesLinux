@@ -1,0 +1,25 @@
+#!/bin/sh
+
+myvar="Hola mundo"
+
+echo $myvar
+echo "$myvar"
+echo '$myvar'
+echo \$myvar
+
+echo $0
+echo "$0"
+echo '$0'
+echo \$0
+
+echo date
+echo "date"
+echo 'date'
+echo \date
+echo `date`
+
+echo Ingresa algun dato
+read myvar
+
+echo $myvar
+exit 0
