@@ -1,3 +1,5 @@
+#!/bin/bash
+
 FECHA_ACTUAL=$(date +"%d-%b-%y")
 echo $FECHA_ACTUAL
 # Fecha actual del Sistema
