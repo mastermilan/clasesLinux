@@ -114,7 +114,7 @@ agregarSG()
 agregarRepoGIT()
 {
   ssh-keyscan git.XXXX.XXXX >> ~/.ssh/known_hosts
-  ssh-agent bash -c 'echo -e "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAMwAAAAtzc2gtZW\+\ngwAAAAtzc2gtZWQyNTUxOQAAACD8lVHTZmD1pBKgVr7QLMlQB2VUAT8SH3ONa4G65Zq+Tg\nAAAEBrhi51AGBK03dbCZTy61jEP3JoyRhZ0nvsbXkuuJUoa/yVUdNmYPWkEqBWvtAsyVAH\\n-----END OPENSSH PRIVATE KEY-----" | ssh-add - ; git clone git@git.XXXXXX.XXXb:infra/ansible.git /tmp/infra/'
+  ssh-agent bash -c 'echo -e "-----BEGIN OPENXXSSH PRIVATE KEY-----\nv/yVUdNmYPWkEqBWvtAsyVAH\\n-----END OPENSSH PRIVATE KEY-----" | ssh-add - ; git clone git@git.XXXXXX.XXXb:infra/ansible.git /tmp/infra/'
 }
 
 ejecutarAnsible()
